@@ -21,10 +21,10 @@
 void PrintChessBoard();
 
 /**
- * @brief 
+ * @brief 打印非棋子的棋盘.
  * 
- * @param i 
- * @param j 
+ * @param i 横坐标.
+ * @param j 纵坐标.
  */
 void PrintEdge(int i, int j);
 

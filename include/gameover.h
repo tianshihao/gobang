@@ -15,12 +15,12 @@
 #include "define.h"
 
 /**
- * @brief 
+ * @brief 判断游戏是否结束.
  * 
- * @param node 
- * @param piece 
- * @return STATUS 
+ * @param pos 棋盘位置. 
+ * @param piece 棋子.
+ * @return STATUS TRUE, 会结束.
  */
-STATUS Gameover(point node, int piece);
+STATUS Gameover(point pos, int piece);
 
 #endif

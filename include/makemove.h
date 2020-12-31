@@ -15,19 +15,19 @@
 #include "define.h"
 
 /**
- * @brief 
+ * @brief 在 pos 上放上棋子 piece.
  * 
- * @param pos 
- * @param piece 
+ * @param pos 棋盘位置
+ * @param piece 棋子
  */
 void MakeMove(point pos, int piece);
 
 /**
- * @brief 
+ * @brief 撤销 pos 的棋子.
  * 
- * @param node 
- * @param piece 
+ * @param pos 棋盘位置.
+ * @param piece 棋子.
  */
-void UnMakeMove(point node, int piece);
+void UnMakeMove(point pos, int piece);
 
 #endif

@@ -11,16 +11,16 @@
 
 #include "makemove.h"
 
-void MakeMove(point node, int piece)
+void MakeMove(point pos, int piece)
 {
-	chessBoard[node.x][node.y] = piece;
+	chessBoard[pos.x][pos.y] = piece;
 
 	return;
 }
 
-void UnMakeMove(point node, int piece)
+void UnMakeMove(point pos, int piece)
 {
-	chessBoard[node.x][node.y] = 0;
+	chessBoard[pos.x][pos.y] = 0;
 
 	return;
 }

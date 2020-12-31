@@ -141,8 +141,8 @@ int evaluate(point pos, int player1, int player2)
         }
 
         /* 其余散棋. */
-        int numOfplyer = 0;           // 因为方向会算两次？
-        for (int k = -4; k <= 0; k++) // ++++* +++*+ ++*++ +*+++ *++++
+        int numOfplyer = 0;           /* 因为方向会算两次？ */
+        for (int k = -4; k <= 0; k++) /* ++++* +++*+ ++*++ +*+++ *++++ */
         {
             int temp = 0;
             for (int l = 0; l <= 4; l++)

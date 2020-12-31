@@ -11,6 +11,7 @@
 
 #include "define.h"
 
+/* 定义外部变量. */
 int chessBoard[GRID_NUM][GRID_NUM];       /// 棋盘.
 int piece;                                /// 玩家.
 point feasibleMoves[MAX_DEPTH + 1][1000]; /// 可行招法

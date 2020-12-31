@@ -45,7 +45,7 @@ int AlphaBeta(int depth, int alpha, int beta, int piece)
 			{
 				bestMove = feasibleMoves[MAX_DEPTH][i];
 			}
-			// alpha+beta剪枝点
+			/* alpha+beta剪枝点 */
 			if (value >= beta)
 			{
 				return beta;

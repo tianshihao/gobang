@@ -18,9 +18,9 @@
 
 enum PIECE
 {
-	BLANK, // 空点.
-	BLACK, // 黑子.
-	WHITE  // 白子.
+	BLANK, /* 空点. */
+	BLACK, /* 黑子. */
+	WHITE  /* 白子. */
 } PIECE;
 
 #define INF 0x3f3f3f3f /// 无穷大.
@@ -42,7 +42,7 @@ typedef struct point
 	int x, y;
 } point;
 
-/* 定义外部变量. */
+/* 声明外部变量. */
 extern int chessBoard[GRID_NUM][GRID_NUM];		 /// 棋盘.
 extern int piece;								 /// 玩家.
 extern point feasibleMoves[MAX_DEPTH + 1][1000]; /// 可行招法
